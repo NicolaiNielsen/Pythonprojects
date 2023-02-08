@@ -26,6 +26,9 @@ def sortalgo(list, target):
 
 my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 sortalgo(my_list, 2)
+
+##Binary search vs normal search - bedre timekompleksistet
+#Linære search
 #multiple values : middle, start, end number of splits/steps
 #recursion og while to 
 #increase steps each time a split done
