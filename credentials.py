@@ -4,8 +4,8 @@ import time
 
 
 def send_message():
-    resp = requests.post('http://textbelt.com/text' {
-        'phone': "5005005"
+    resp = requests.post('http://textbelt.com/text', {
+        'phone': "5005005",
         'message': "good morning",
         'key': "textbelt"
     })
